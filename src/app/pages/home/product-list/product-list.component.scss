@@ -1,0 +1,49 @@
+:host ::ng-deep{
+        .swiper-button-prev, .swiper-button-next
+          {
+              top:60% !important;
+          }
+          .swiper-button-prev:after, .swiper-button-next:after
+          {
+              font-size: 8px !important;
+              background: #b3a4da91  !important;
+              padding: 18px 21px !important;
+              color: white !important;
+          }
+        .mySwiper:not(:last-child)
+        {
+            margin-right: 30px;
+        }
+        
+      }
+.products
+{
+    height: 1000px;
+    .header-list
+    {
+        p
+        {
+            color:#032326;
+            font-size:15px;
+        }
+        .line
+        {
+            height: 1px;
+            width: 78%;
+            background-color: #cdc5c596;
+        }
+        .p-button{
+            background-color: white !important;
+            color: #302CA2 !important;
+            border: 1px solid #302CA2 !important;
+            font-weight: 800;
+            
+    }
+        .p-button:hover
+        {
+            background-color: white !important;
+            color: #302CA2 !important;
+            border: 1px solid #302CA2 !important;
+        }
+    }
+}

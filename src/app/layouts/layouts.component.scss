@@ -1,0 +1,64 @@
+.container
+{
+    width: 95%;
+    margin: auto;
+}
+.p-inputtext::placeholder
+{
+    color:#302CA2;
+}
+.p-inputgroup
+{
+    span{
+        color: #302CA2;
+        background-color:#efeef8 ;
+    }
+    input{
+        background-color: #efeef8;
+        color: #302CA2;
+    }
+}
+.p-button{
+        background-color: #efeef8;
+        color: #302CA2;
+        i{
+
+            color: #302CA2;
+        }
+}
+.p-button:hover
+{
+    background-color: #efeef8;
+    color: #302CA2;
+}
+@media screen and (max-width:768px) {
+    .logo
+    {
+        img{
+            width: 40px !important;
+        }
+    }
+    .cart
+    {
+        .p-button
+        {
+            span{
+
+                font-size: 12px;
+            }
+            i{
+                font-size: 12px;
+            }
+        }
+    }
+    .user
+    {
+        .p-button
+        {
+            font-size: 12px;
+            i{
+                font-size: 12px;
+            }
+        }
+    }
+}

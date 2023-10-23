@@ -1,0 +1,23 @@
+<div class="">
+    <swiper  [slidesPerView]="1" [autoplay]="true" [navigation]="true" [spaceBetween]="0" [navigation]="true"
+    [pagination]="{ clickable: true }" [loop]="true" class="mySwiper">
+    <ng-template swiperSlide >
+      <a ><img src="../assets/images/banner.png" alt="banner" class="w-full"></a>
+    </ng-template>
+    
+  </swiper>
+</div>
+
+<div class="grid px-8 w-full pt-4 bg-gray-100">
+  <div class="col-12 md:col-4 xl:col-4 lg:col-4 sm:col-12">
+    <app-last-view>
+
+    </app-last-view>
+  </div>
+  <div class=" col-12 md:col-8 xl:col-8 lg:col-8 sm:col-12" >
+    <app-product-list>
+
+    </app-product-list>
+  </div>
+  
+</div>

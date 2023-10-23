@@ -1,0 +1,14 @@
+:host ::ng-deep{
+  .swiper-button-prev, .swiper-button-next
+    {
+        top:75% !important;
+    }
+    .swiper-button-prev:after, .swiper-button-next:after
+    {
+        font-size: 8px !important;
+        background: #b3a4da91  !important;
+        padding: 18px 21px !important;
+        color: white !important;
+    }
+    
+}
