@@ -1,1 +1,8 @@
-<p>last-view works!</p>
+<div class="products">
+  <span class="header-text">منتجات تصفحتها مؤخرا</span>
+  <div class="mt-6 pr-5">
+    <div class="mb-3" *ngFor="let product of productList|slice:0:3"> 
+      <app-last-view-card [product]="product"></app-last-view-card>
+    </div>
+  </div>
+</div>

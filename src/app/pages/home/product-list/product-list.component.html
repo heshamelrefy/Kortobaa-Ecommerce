@@ -8,11 +8,12 @@
     </div>
     <div class="mt-4">
         
-        <swiper  [slidesPerView]="3" [autoplay]="true" [navigation]="true" [spaceBetween]="0" [navigation]="true"
-        [pagination]="{ clickable: true }" [loop]="true" class="mySwiper">
-        <ng-template class="mySwiper" swiperSlide *ngFor="let item of [1,2,3,4,5,6,7]">
+        <swiper  [slidesPerView]="4" [autoplay]="true" [navigation]="true" [spaceBetween]="0" 
+        [navigation]="true"
+        [loop]="true" class="mySwiper pb-3">
+        <ng-template class="mySwiper" swiperSlide *ngFor="let product of productList">
           
-          <app-product-card></app-product-card>
+          <app-product-card [product]="product"></app-product-card>
         </ng-template>
         
       </swiper>

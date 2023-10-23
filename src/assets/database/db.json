@@ -1,0 +1,74 @@
+{
+    "products":[
+        {
+            "id":1,
+            "title":"تيشيرت-كم طويل-آرت وير-نسائي-ملابس",
+            "img":"../assets/images/pic1.png",
+            "rating":2,
+            "offer":true,
+            "price":100.00,
+            "offerPrice":90.00
+
+        },
+        {
+            "id":2,
+            "title":"تيشيرت-كم طويل-آرت وير-نسائي-ملابس",
+            "img":"../assets/images/pic2.png",
+            "rating":3,
+            "offer":false,
+            "price":150.00,
+            "offerPrice":null
+
+        },
+        {
+            "id":3,
+            "title":"تيشيرت-كم طويل-آرت وير-نسائي-ملابس",
+            "img":"../assets/images/pic3.png",
+            "rating":1,
+            "offer":false,
+            "price":200.00,
+            "offerPrice":null
+
+        },
+        {
+            "id":4,
+            "title":"تيشيرت-كم طويل-آرت وير-نسائي-ملابس",
+            "img":"../assets/images/pic4.png",
+            "rating":2,
+            "offer":true,
+            "price":300.00,
+            "offerPrice":200.00
+
+        },
+        {
+            "id":5,
+            "title":"تيشيرت-كم طويل-آرت وير-نسائي-ملابس",
+            "img":"../assets/images/pic5.png",
+            "rating":5,
+            "offer":true,
+            "price":140.00,
+            "offerPrice":100.00
+
+        },
+        {
+            "id":6,
+            "title":"تيشيرت-كم طويل-آرت وير-نسائي-ملابس",
+            "img":"../assets/images/pic6.png",
+            "rating":4,
+            "offer":false,
+            "price":100.00,
+            "offerPrice":null
+
+        },
+        {
+            "id":7,
+            "title":"تيشيرت-كم طويل-آرت وير-نسائي-ملابس",
+            "img":"../assets/images/pic7.png",
+            "rating":2,
+            "offer":false,
+            "price":100.00,
+            "offerPrice":null
+
+        }
+    ]
+}

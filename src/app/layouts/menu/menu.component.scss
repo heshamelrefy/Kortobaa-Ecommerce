@@ -15,7 +15,11 @@
         border: none;
         border-color: unset;
         font-size:13px;
-        font-weight:600
+        font-weight:600;
+        background-color: transparent;
+        &:hover{
+            background-color: transparent !important;
+        }
     }
     .p-tabmenu .p-tabmenu-nav .p-tabmenuitem .p-menuitem-link:not(.p-disabled):focus
     {

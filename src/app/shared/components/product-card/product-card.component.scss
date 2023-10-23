@@ -1,8 +1,15 @@
 :host ::ng-deep{
+    .p-card{
+        height: 415px;
+    }
     .p-card-header img
-{
-    padding: 30px 15px !important;
-}
+    {
+        padding: 27px 15px 0px !important;
+        height: 210px;
+    }
+    .p-rating .p-rating-icon.p-rating-icon-active{
+        color: #FFE621;
+    }
 }
 .btn-footer
 {
@@ -11,6 +18,9 @@
         color: white !important;
         border: 1px solid #302CA2 !important;
         font-weight: 600;
+        label{
+            font-size: 10px;
+        }
         
     }
 .btn-footer:hover
@@ -30,5 +40,15 @@
 }
 .badge-text
 {
-    position:absl
+    position: absolute;
+    top:15px;
+    left: 25px;
+    padding: 5px 10px;
+    border-radius: 50px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    span{
+        transform: translateY(-16%);
+    }
 }

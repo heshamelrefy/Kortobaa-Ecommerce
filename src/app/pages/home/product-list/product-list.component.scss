@@ -12,13 +12,12 @@
           }
         .mySwiper:not(:last-child)
         {
-            margin-right: 30px;
+            margin-right: 10px;
         }
         
       }
 .products
 {
-    height: 1000px;
     .header-list
     {
         p
@@ -29,11 +28,11 @@
         .line
         {
             height: 1px;
-            width: 78%;
+            width: 80%;
             background-color: #cdc5c596;
         }
         .p-button{
-            background-color: white !important;
+            background-color: transparent !important;
             color: #302CA2 !important;
             border: 1px solid #302CA2 !important;
             font-weight: 800;
@@ -41,7 +40,7 @@
     }
         .p-button:hover
         {
-            background-color: white !important;
+            background-color: transparent !important;
             color: #302CA2 !important;
             border: 1px solid #302CA2 !important;
         }
