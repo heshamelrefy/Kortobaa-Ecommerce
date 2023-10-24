@@ -24,4 +24,13 @@
     color: #032326;
     font-size: 15px;
 }
+.cards{
+    padding-left: 40px;
+    @media screen and (max-width:1483px){
+        padding-left: 20px;
+    }
+    @media screen and (max-width:1423px){
+        padding-left: 0px;
+    }
+}
 }

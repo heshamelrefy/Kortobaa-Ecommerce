@@ -6,7 +6,6 @@ import { IProduct } from '../../interfaces/iproduct';
   templateUrl: './product-card.component.html',
   styleUrls: ['./product-card.component.scss']
 })
-export class ProductCardComponent {
+export class ProductCardComponent{
   @Input() product!:IProduct
-
 }

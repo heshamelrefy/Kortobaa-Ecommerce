@@ -1,5 +1,5 @@
 <div class="products">
-    <div class="header-list  flex align-items-center gap-3">
+    <div class="header-list  flex align-items-center justify-content-between">
         <p>وصل حديثا</p>
         <div class="line"></div>
         <button type="button" class=""  pButton >
@@ -8,7 +8,7 @@
     </div>
     <div class="mt-4">
         
-        <swiper  [slidesPerView]="4" [autoplay]="true" [navigation]="true" [spaceBetween]="0" 
+        <swiper  [slidesPerView]="slidesPerView" [autoplay]="true" [navigation]="true" [spaceBetween]="0" 
         [navigation]="true"
         [loop]="true" class="mySwiper pb-3">
         <ng-template class="mySwiper" swiperSlide *ngFor="let product of productList">

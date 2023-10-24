@@ -12,3 +12,12 @@
     }
     
 }
+.container{
+    padding: 100px 60px;
+    @media screen and (max-width:1363px){
+        padding: 100px 30px;
+    }
+    @media screen and (max-width:1304px){
+        padding: 100px 15px;
+    }
+}
