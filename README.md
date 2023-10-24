@@ -1,10 +1,65 @@
 # KortobaaEcommerce
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.7.
+This project  is marketing and characterized by speed, flexibility and easy to use.
+This project  is responsive.
+Get products form JSON `assets/database/db.json`
 
-## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Project modules,components,interfaces,Guard,customPipe,services and files.ts
+# Core modules 
+  - Interceptor
+  - models
+  - Services
+# Layouts Module
+  - Layout
+  - Menu
+
+# Screens modules 
+  - Login module
+# Components 
+  - Product List
+  - Last View
+  - Product Card
+  - Last View Card
+    
+
+  # Shared modules 
+  - Product Card Component
+  - Last View Card Component
+  - interfaces
+  - material Module  
+
+ # Services 
+  - Products Service
+
+
+# Interfaces 
+  - IProduct
+
+
+# routers
+  - appRouts.ts
+##  Stacks
+
+  -Html5
+  -Sass 
+  -primeflex
+  -primeicon
+  -primeng
+  -swiper
+  -Typescript 
+  -Angular
+
+## to run project install
+
+  - swiper: ^8.4.5,
+  - primeicons: ^6.0.1,
+  - primeflex: ^3.3.1,
+  - primeng: ^16.1.0,
+  - Node v18.17.1
+## OR
+  - npm install
 
 ## Code scaffolding
 
